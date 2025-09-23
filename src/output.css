@@ -166,6 +166,9 @@
   }
 }
 @layer utilities {
+  .clear-both {
+    clear: both;
+  }
   .m-auto {
     margin: auto;
   }
@@ -186,6 +189,9 @@
   }
   .mt-\[18px\] {
     margin-top: 18px;
+  }
+  .mt-\[19px\] {
+    margin-top: 19px;
   }
   .mt-\[22px\] {
     margin-top: 22px;
@@ -232,6 +238,12 @@
   .mb-\[21px\] {
     margin-bottom: 21px;
   }
+  .mb-\[26px\] {
+    margin-bottom: 26px;
+  }
+  .mb-\[27px\] {
+    margin-bottom: 27px;
+  }
   .mb-\[32px\] {
     margin-bottom: 32px;
   }
@@ -252,6 +264,9 @@
   }
   .mb-\[140px\] {
     margin-bottom: 140px;
+  }
+  .mb-\[200px\] {
+    margin-bottom: 200px;
   }
   .mb-\[240px\] {
     margin-bottom: 240px;
@@ -304,6 +319,9 @@
   .h-\[494px\] {
     height: 494px;
   }
+  .h-\[560px\] {
+    height: 560px;
+  }
   .h-\[594px\] {
     height: 594px;
   }
@@ -348,6 +366,9 @@
   }
   .w-\[388px\] {
     width: 388px;
+  }
+  .w-\[500px\] {
+    width: 500px;
   }
   .w-\[556px\] {
     width: 556px;
@@ -406,6 +427,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-\[8px\] {
+    gap: 8px;
+  }
   .gap-\[10px\] {
     gap: 10px;
   }
@@ -429,6 +453,9 @@
   }
   .gap-\[72px\] {
     gap: 72px;
+  }
+  .gap-\[77px\] {
+    gap: 77px;
   }
   .gap-\[200px\] {
     gap: 200px;
@@ -734,6 +761,11 @@
       display: flex;
     }
   }
+  .ww\:h-\[560px\] {
+    @media (width >= 510px) {
+      height: 560px;
+    }
+  }
   .ww\:h-\[676px\] {
     @media (width >= 510px) {
       height: 676px;
@@ -742,6 +774,11 @@
   .ww\:w-\[90\%\] {
     @media (width >= 510px) {
       width: 90%;
+    }
+  }
+  .ww\:w-\[500px\] {
+    @media (width >= 510px) {
+      width: 500px;
     }
   }
   .ww\:w-\[656px\] {
@@ -762,6 +799,11 @@
   .ww\:justify-between {
     @media (width >= 510px) {
       justify-content: space-between;
+    }
+  }
+  .ww\:p-0 {
+    @media (width >= 510px) {
+      padding: calc(var(--spacing) * 0);
     }
   }
   .ww\:pt-\[17px\] {
@@ -787,6 +829,16 @@
   .ww\:pl-\[44px\] {
     @media (width >= 510px) {
       padding-left: 44px;
+    }
+  }
+  .ww\:text-center {
+    @media (width >= 510px) {
+      text-align: center;
+    }
+  }
+  .ww\:text-left {
+    @media (width >= 510px) {
+      text-align: left;
     }
   }
   .ww\:text-\[28px\] {
