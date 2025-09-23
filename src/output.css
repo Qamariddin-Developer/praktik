@@ -11,6 +11,7 @@
     --color-red-400: oklch(70.4% 0.191 22.216);
     --color-black: #000;
     --color-white: #fff;
+    --spacing: 0.25rem;
     --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
@@ -189,6 +190,9 @@
   .mt-\[50px\] {
     margin-top: 50px;
   }
+  .mt-\[140px\] {
+    margin-top: 140px;
+  }
   .mt-\[200px\] {
     margin-top: 200px;
   }
@@ -207,6 +211,12 @@
   .mb-\[21px\] {
     margin-bottom: 21px;
   }
+  .mb-\[32px\] {
+    margin-bottom: 32px;
+  }
+  .mb-\[40px\] {
+    margin-bottom: 40px;
+  }
   .mb-\[56px\] {
     margin-bottom: 56px;
   }
@@ -215,6 +225,9 @@
   }
   .mb-\[58px\] {
     margin-bottom: 58px;
+  }
+  .mb-\[140px\] {
+    margin-bottom: 140px;
   }
   .mb-\[240px\] {
     margin-bottom: 240px;
@@ -255,6 +268,9 @@
   .h-\[450px\] {
     height: 450px;
   }
+  .w-80 {
+    width: calc(var(--spacing) * 80);
+  }
   .w-\[80\%\] {
     width: 80%;
   }
@@ -267,11 +283,29 @@
   .w-\[90\] {
     width: 90;
   }
+  .w-\[100px\] {
+    width: 100px;
+  }
   .w-\[374px\] {
     width: 374px;
   }
   .w-\[374xp\] {
     width: 374xp;
+  }
+  .w-\[600p\] {
+    width: 600p;
+  }
+  .w-\[600px\] {
+    width: 600px;
+  }
+  .w-\[700px\] {
+    width: 700px;
+  }
+  .w-\[800px\] {
+    width: 800px;
+  }
+  .w-\[1000px\] {
+    width: 1000px;
   }
   .w-\[1400px\] {
     width: 1400px;
@@ -309,8 +343,14 @@
   .gap-\[10px\] {
     gap: 10px;
   }
+  .gap-\[16\] {
+    gap: 16;
+  }
   .gap-\[16px\] {
     gap: 16px;
+  }
+  .gap-\[16xp\] {
+    gap: 16xp;
   }
   .gap-\[22px\] {
     gap: 22px;
@@ -374,6 +414,9 @@
   .p-\[18px\] {
     padding: 18px;
   }
+  .p-\[240px\] {
+    padding: 240px;
+  }
   .pt-\[0px\] {
     padding-top: 0px;
   }
@@ -382,6 +425,9 @@
   }
   .pt-\[17px\] {
     padding-top: 17px;
+  }
+  .pt-\[240px\] {
+    padding-top: 240px;
   }
   .pr-\[5px\] {
     padding-right: 5px;
@@ -442,6 +488,9 @@
   }
   .text-\[4px\] {
     font-size: 4px;
+  }
+  .text-\[20px\] {
+    font-size: 20px;
   }
   .text-\[21px\] {
     font-size: 21px;
@@ -519,6 +568,11 @@
   .ww\:flex {
     @media (width >= 510px) {
       display: flex;
+    }
+  }
+  .ww\:w-\[1000px\] {
+    @media (width >= 510px) {
+      width: 1000px;
     }
   }
   .ww\:pt-\[17px\] {
